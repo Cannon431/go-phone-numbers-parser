@@ -39,7 +39,7 @@ func New(fileName string, iniFile *ini.File) *Parser {
 		}
 	}
 
-	file, err := os.Create(dumpsDir + fileName + ".txt")
+	file, err := os.Create(dumpsDir + fileName)
 
 	if err != nil {
 		log.Fatal(err)
