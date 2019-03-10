@@ -3,7 +3,7 @@ package pnplib
 import (
 	"encoding/json"
 	"strconv"
-	"vk-api"
+	"github.com/Cannon431/go-vk-api"
 )
 
 func (api *API) getMembers(groupID string, offset int) (Members, error) {
